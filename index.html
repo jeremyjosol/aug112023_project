@@ -26,8 +26,8 @@
     </ul>
     <form id="question">
       <div class="form-group">
-        <label for="username">Hello! What is your name?</label>
-        <input class="form-control" id="name" type="text" name="username">
+        <label for="username">Hello! What should I call you?</label>
+        <input class="form-control" id="name" type="text" name="username" placeholder="Fluffy Bunny, Destroyer of Carrots" value="Fluffy Bunny, Destroyer of Carrots">
         <br />
         <h3>Question One</h3>
         <label for="java"><p class="italic">Do you like working with the DOM?</p></label>
@@ -60,8 +60,11 @@
       </div>
     </form>
   </div>
-  <h4><p id="nameinput"> based on the criteria, your results are:</p></h4>
+  <div id="user-name">
+    <h4><p id="nameinput"></p></h4>
+  </div>
   <div id="result">
-    <p></p></div>
+    <p></p>
+  </div>
 </body>
 </html>

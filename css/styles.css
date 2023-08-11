@@ -57,11 +57,12 @@ ul {
   font-size: 1.5em;
 }
 
-#java, #java2, #csharp, #python, #ruby {
-  font-size: smaller;
-  width: 100%;
+#java, #java2, #csharp, #python, #ruby, #name {
+  font-size: small;
   background-color: rgb(250, 250, 250);
   text-align: center;
+  color: black;
+  text-shadow: 1px 1px 1px grey;
 }
 
 .italic {
