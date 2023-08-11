@@ -3,6 +3,9 @@
 <head>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Language Suggestor App</title>
@@ -12,32 +15,32 @@
   <h2>Answer the questions below to find out!</h2>
   <div id="form-style">
     <form id="question">
-    <h3>Question One</h3>
-    <label for="java">Do you like working with the DOM?</label>
-    <br />
-    <input id="java" type="text" name="answer" placeholder="Yes or No" required>
-    <h3>Question Two</h3>
-    <label for="java">Do you want to work on applications both backend and frontend?</label>
-    <br />
-    <input id="java2" type="text" name="answer" placeholder="Yes or No" required>
-    <h3>Question Three</h3>
-    <label for="c#">Are you interested in something built by Microsoft?</label>
-    <br />
-    <input id="c#" type="text" name="answer" placeholder="Yes or No" required>
-    <h3>Question Four</h3>
-    <label for="python">Do you want to define code blocks with indentation or curly braces?</label>
-    <br />
-    <input id="python" type="text" name="answer" placeholder="Indentation or Curly braces" required>
-    <h3>Question Five</h3>
-    <label for="ruby">Pokemon: Groudon or Kyogre?</label>
-    <br />
-    <input id="ruby" type="text" name="answer" placeholder="Groudon or Kyogre" required>
-    <br />
-    <br />
-    <button type="submit">Submit!</button>
+      <h3>Question One</h3>
+      <label for="java">Do you like working with the DOM?</label>
+     <br />
+      <input id="java" type="text" name="answer" placeholder="Yes or No" required>
+      <h3>Question Two</h3>
+      <label for="java">Do you want to work on applications both backend and frontend?</label>
+      <br />
+      <input id="java2" type="text" name="answer" placeholder="Yes or No" required>
+      <h3>Question Three</h3>
+      <label for="csharp">Are you interested in something built by Microsoft?</label>
+      <br />
+      <input id="csharp" type="text" name="answer" placeholder="Yes or No" required>
+      <h3>Question Four</h3>
+      <label for="python">Do you want to define code blocks with indentation or curly braces?</label>
+      <br />
+      <input id="python" type="text" name="answer" placeholder="Indentation or Curly braces" required>
+      <h3>Question Five</h3>
+      <label for="ruby">Pokemon: Groudon or Kyogre?</label>
+      <br />
+      <input id="ruby" type="text" name="answer" placeholder="Groudon or Kyogre" required>
+      <br />
+      <br />
+      <button class="button" type="submit">Submit!</button>
     </form>
   </div>
-  <h4>Based on your responses your results are...:</h4>
+  <h4>Based on your responses, the results are:</h4>
   <div id="result"><p></p></div>
 </body>
 </html>
