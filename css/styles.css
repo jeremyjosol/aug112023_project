@@ -1,20 +1,6 @@
-@media only screen and (min-width: 100px) and (max-width: 768px) {
-  #form-style {
-    margin: auto;
-    padding: 100%;
-    width: 100%;
-    background-color:blue;
-  }
-  .button {
-    width: 100%;
-  }
-  #java, #java2, #csharp, #python, #ruby {
-    width: 100%;
-  }}
-  
-  
-
-body {
+@media only screen and (min-width: 100px) and (max-width: 350px) {
+}
+  body {
   text-align: center;
   background-color: white; 
   font-family: 'Roboto Condensed', sans-serif;
@@ -27,6 +13,10 @@ body {
   padding-bottom: 10px;
   margin: auto;
   width: 50%;
+}
+
+.form-control {
+  margin: auto;
 }
 
 h3 {
@@ -44,27 +34,30 @@ ul {
   font-style: italic;
 }
 
-.button {
-  background-color: green;
-  opacity: 80%;
-  width: 23%;
-  height: 50px;
+.btn {
+  opacity: 95%;
+  width: 50%;
   color: white;
   border: none;
   margin: auto;
   padding: auto;
 }
 
-.button:hover {
+.btn:hover {
   opacity: 100%
 }
 
 #result {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 #java, #java2, #csharp, #python, #ruby {
-  width: 25%;
+  font-size: smaller;
+  width: 100%;
   background-color: rgb(250, 250, 250);
   text-align: center;
+}
+
+.italic {
+  font-style: italic;
 }

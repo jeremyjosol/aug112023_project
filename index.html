@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,33 +21,39 @@
       <li id="sensitive">Responses are case sensitive</li>
     </ul>
     <form id="question">
+      <div class="form-group">
       <h3>Question One</h3>
-      <label for="java">Do you like working with the DOM?</label>
+      <label for="java"><p class="italic">Do you like working with the DOM?</p></label>
      <br />
-      <input id="java" type="text" name="answer" placeholder="Yes or No" required>
+      <input class="form-control" id="java" type="text" name="answer" placeholder="Yes or No" required>
+      <br />
       <h3>Question Two</h3>
-      <label for="java">Do you want to work on applications both backend and frontend?</label>
+      <label for="java"><p class="italic">Do you want to work on applications both backend and frontend?</p></label>
       <br />
-      <input id="java2" type="text" name="answer" placeholder="Yes or No" required>
+      <input class="form-control" id="java2" type="text" name="answer" placeholder="Yes or No" required>
+      <br />
       <h3>Question Three</h3>
-      <label for="csharp">Are you interested in something built by Microsoft?</label>
+      <label for="csharp"><p class="italic">Are you interested in something built by Microsoft?</p></label>
       <br />
-      <input id="csharp" type="text" name="answer" placeholder="Yes or No" required>
+      <input class="form-control" id="csharp" type="text" name="answer" placeholder="Yes or No" required>
+      <br />
       <h3>Question Four</h3>
-      <label for="python">Do you want to define code blocks with indentation or curly braces?</label>
+      <label for="python"><p class="italic">Do you want to define code blocks with indentation or curly braces?</p></label>
       <br />
-      <input id="python" type="text" name="answer" placeholder="Indentation or Curly braces" required>
+      <input class="form-control" id="python" type="text" name="answer" placeholder="Indentation or Curly braces" required>
+      <br />
       <h3>Question Five</h3>
-      <label for="ruby">Pokemon: Groudon or Kyogre?</label>
+      <label for="ruby"><p class="italic">Pokemon: Groudon or Kyogre?</p></label>
       <br />
-      <input id="ruby" type="text" name="answer" placeholder="Groudon or Kyogre" required>
+      <input class="form-control" id="ruby" type="text" name="answer" placeholder="Groudon or Kyogre" required>
       <br />
       <br />
-      <button class="button" type="submit">Submit!</button>
+      <button class="btn btn-sucess bg-success text-white" type="submit">Submit!</button>
       <p></p>
+      </div>
     </form>
   </div>
-  <h4>Based on the criteria, your results are:</h4>
+  <h4><p>Based on the criteria, your results are:</p></h4>
   <div id="result">
     <p></p></div>
 </body>
