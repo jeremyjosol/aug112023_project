@@ -1,5 +1,6 @@
 function userInput(event){
   event.preventDefault();
+  const userName = document.getElementById("name").value;
   const questionJava = document.getElementById("java").value;
   const questionJava2 = document.getElementById("java2").value;
   const questionCSharp = document.getElementById("csharp").value;
@@ -59,6 +60,7 @@ function userInput(event){
     result = "Fullstack! Try learning Javascript first. Then think about C# and Python in the future."
   } 
   document.getElementById("result").innerText = result;
+  document.getElementById("nameinput").innerText = userName;
 }
 
 window.addEventListener("load", function(){
