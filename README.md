@@ -12,6 +12,7 @@ This application features a webpage that generates a programming language sugges
 ## Technologies Used
 * HTML
 * CSS
+* Bootstrap
 * Javascript
 * VSCode
 * Google Fonts

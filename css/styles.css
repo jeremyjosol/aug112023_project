@@ -12,6 +12,15 @@ h1 {
   text-shadow: 3px 3px 3px grey;
 }
 
+#bg-color {
+  background-color: rgb(226, 226, 226);
+  opacity: 80%;
+}
+
+#bg-color:hover {
+  opacity: 100%;
+}
+
 #form-style {
   border: 0.5px black solid;
   padding: 40px;

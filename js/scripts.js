@@ -63,7 +63,6 @@ function userInput(event){
   }
   document.getElementById("nameinput").value = userName;
   document.getElementById("result").innerText = userName + "," + " " + "based on the criteria, I suggest you learn: " + result;
-  
 }
 
 window.addEventListener("load", function(){
