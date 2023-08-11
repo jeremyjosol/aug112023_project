@@ -7,7 +7,7 @@ Jeremy Josol
 This application features a webpage that generates a programming language suggestion based on the user input.
 
 ## Github Pages
-[Programming Language Generator - Click to View](https://jeremyjosol.github.io/aug112023_project/)
+[JJ - Programming Language Generator - Click to View](https://jeremyjosol.github.io/aug112023_project/)
 
 ## Technologies Used
 * HTML
