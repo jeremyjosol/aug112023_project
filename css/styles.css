@@ -16,6 +16,16 @@ h3 {
   color: black;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#sensitive {
+  color: red;
+  font-style: italic;
+}
+
 .button {
   background-color: green;
   opacity: 80%;
