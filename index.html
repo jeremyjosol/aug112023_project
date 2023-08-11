@@ -8,7 +8,10 @@
   <title>Language Suggestor App</title>
 </head>
 <body>
-  <form id="question">
+  <h1>Which programming language are you?</h1>
+  <h2>Answer the questions below to find out!</h2>
+  <div id="form-style">
+    <form id="question">
     <h3>Question One</h3>
     <label for="java">Do you like working with the DOM?</label>
     <br />
@@ -29,8 +32,12 @@
     <label for="ruby">Pokemon: Groudon or Kyogre?</label>
     <br />
     <input id="ruby" type="text" name="answer" placeholder="Groudon or Kyogre" required>
-    <button type="submit">Submit</button>
-  </form>
-<div id="result"><p></p></div>
+    <br />
+    <br />
+    <button type="submit">Submit!</button>
+    </form>
+  </div>
+  <h4>Based on your responses your results are...:</h4>
+  <div id="result"><p></p></div>
 </body>
 </html>
