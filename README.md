@@ -22,6 +22,7 @@ This application features a webpage that generates a programming language sugges
 2. Open the 'aug112023_project.zip' file
 3. Once the file has been zipped, open 'aug112023_project'
 4. Open the 'index.html' file to view the project on your local browser
+5. Alternatively, the project can be viewed directly from the Github Pages link
 
 ## Known Bugs
 No major bugs known. Input value is case sensitive. Please kindly report any known issues to the repository's creator.
