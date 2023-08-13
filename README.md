@@ -4,10 +4,10 @@
 Jeremy Josol
 
 ## About
-This application features a webpage that generates a programming language suggestion based on the user input.
+This application features a webpage that generates a programming language suggestion based on the user input. Different value submissions will result in a new suggestion. Try as many values as possible and see if you can discover the 'rare' result.
 
 ## Github Pages
-[JJ - Programming Language Generator - Click to View](https://jeremyjosol.github.io/aug112023_project/)
+[Programming Language Generator - Click to View](https://jeremyjosol.github.io/aug112023_project/)
 
 ## Technologies Used
 * HTML
